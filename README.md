@@ -1,4 +1,5 @@
-The code is written in python, and the pretrained word vector was taken from fastText's pretrained model. (https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz)
-(https://drive.google.com/file/d/1TRvjH5Qasmg83laKq0ESDgWorzxUqmK1/view?usp=sharing)
+The code is written in python, and the pretrained word vector was taken from fastText's pretrained model, and another word vector:
+- https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz
+- https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
 
-This code uses gensim's fasttext.  
+This code measures the similarity between 2 sentences using the cosine similarity. 
